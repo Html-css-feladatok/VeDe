@@ -1,0 +1,36 @@
+body{
+    background-image: url("képek/háttér.jpg");
+}
+
+.video{
+    text-align: center;
+    margin-top: 2%;
+}
+
+h2{
+    text-align: center;
+    color: rgb(94, 89, 89);
+}
+
+p{
+    text-align: center;
+    color: rgb(94, 89, 89);
+    font-size: 22px;
+    font-weight: bold;
+    margin: 2%;
+}
+
+#title{
+    background: linear-gradient(-45deg, darkred, rgba(255, 0, 0, 0.788) , black);
+    background-size: 300%;
+    font-family: Tahoma;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center !important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated_text 10s ease-in-out infinite;
+    margin-bottom: 3%;
+}
