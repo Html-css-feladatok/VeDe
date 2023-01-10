@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="bootstrap5/bootstrap.min.css">
     <script src="bootstrap5/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" type="text/css" href="regisztraciosurlap.css">
     <title>Regisztráció</title>
 </head>
 <body>
@@ -28,6 +29,69 @@
       </nav>
 
     <!--2.rész: adatbekérés-->
+    <div>
+    <h1 class="cim">Regisztrációs Űrlap</h1>
+        
+      <p>A regisztrációhoz kérlek add meg a következő adatokat !</p>
+      <form action="">
+        <fieldset>
+          <fieldset>
+          <div class="white">
+          <label></label>Vezetéknév: <input type="text" name="Vezetéknév" required />
+          <label ></label>Keresztnév: <input type="text" name="Keresztnév" required />
+          <label></label>E-mail cím: <input type="email" name="E-mail" required /> 
+          
+          Jelszó:<input type="password" name="Jelszó" pattern="[a-z0-]{8,}" required /> 
+          </div>
+          <label>
+          <label></label>
+            </fieldset>
+            <label></label>
+            <fieldset>
+              <label class="white"> Válaszd ki az életkorod!
+               <input type="number" name="age" min="18" max="99" />
+
+               <label class="white">Hol hallottál rólunk?
+                <select name="referrer">
+                  <option value="">(Válassz egyet)</option>
+                  <option value="1">Facebookon</option>
+                  <option value="2">Ismerőstől</option>
+                  <option value="3">Hirdetéseken keresztül</option>
+                  <option value="4">Egyéb</option>
+                </select>
+
+              <label class="white">Válaszd ki a nemed!</label>
+                <select name="referrer">
+                  <option value="">(Válassz egyet)</option>
+                  <option value="1">Férfi</option>
+                  <option value="2">Nő</option>
+                  <option value="3">Egyéb</option>
+                  </select>
+
+
+                <label ></label>
+            
+            </fieldset>
+            <label ></label>
+            
+
+
+            <fieldset>
+              <label class="white"><input type="checkbox" name="terms" class="inline" required /> Kijelentem,hogy elmúltam 18 éves!
+            </label>
+           
+              <label class="white"><input type="checkbox" name="terms" class="inline" required /> Elfogadtam az Általános Szerződési Feltételeket (ÁSZF)</label>
+          </fieldset>
+          <input type="submit" value="Regisztráció" />
+        </form>
+    </div>
+
+        <footer  class="bg-dark text-center text-lg-start">
+            <div class="text-center p-3" style="background-color: rgb(94, 89, 89);">
+                © 2023 Copyright:
+                <a class="text-dark" href="#">Vede</a>
+              </div>
+        </footer>
     
 </body>
 </html>
