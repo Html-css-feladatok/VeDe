@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family:Tahoma;
 }
 
 #menu{
@@ -10,7 +11,7 @@ body{
     display: block;
     width: 70%;
     height: 20%;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -36,7 +37,7 @@ transition: all cubic-bezier(0.2, 0.6, 1.0, 0.1);
 h1{
     color: rgb(94, 89, 89); 
      font-family: "arial";
-     margin: 0 37% auto;
+     margin: 0 36% auto;
      white-space: nowrap;
      overflow: hidden;
      width: 70%;
@@ -54,3 +55,4 @@ h1{
 footer{
     margin-top: 5%;
 }
+
