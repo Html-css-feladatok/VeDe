@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+
+#menu{
+    margin-bottom: 5%;
+}
+
+.kepek{
+    display: block;
+    width: 70%;
+    height: 20%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h2{
+color: rgb(94, 89, 89); 
+ font-family: "arial";
+ margin: 0 18% auto;
+ white-space: nowrap;
+ overflow: hidden;
+ width: 70%;
+ animation: animtext 5s steps(80, end); 
+transition: all cubic-bezier(0.2, 0.6, 1.0, 0.1);
+}
+
+@keyframes animtext { 
+ from {
+    width: 0;
+    transition: all 1s ease-in-out;
+ } 
+}
+
+h1{
+    color: rgb(94, 89, 89); 
+     font-family: "arial";
+     margin: 0 37% auto;
+     white-space: nowrap;
+     overflow: hidden;
+     width: 70%;
+     animation: animtext 3s steps(80, end); 
+    transition: all cubic-bezier(0.2, 0.6, 1.0, 0.1);
+    }
+    
+    @keyframes animtext { 
+     from {
+        width: 0;
+        transition: all 1s ease-in-out;
+     } 
+    }
+
+footer{
+    margin-top: 5%;
+}
